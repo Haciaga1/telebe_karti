@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+body{
+    background-color: lightblue;
+}
+.container{
+    margin: 40px auto;
+    padding: 13px;
+    width: 350px;
+    height: 220px;
+    background-color: white;
+    background: url('./image/backgroundImg.png') ;
+    background-size: cover ;
+    border-radius: 13px;
+    box-shadow: 5px 2px 15px gray;
+    display: flex;
+}
+.left{
+    margin-right: 7px;
+    width: 75%;
+}
+.right{
+    width: 23%;
+}
+.gray{
+    color: gray;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+}
+.black{
+    font-weight: 600;
+    font-size: 13px;
+}
+.pin{
+    width: 40px;
+    margin-left: 20px;
+}
+.light-gray{
+    color: #464646;
+    font-size: 10px;
+}
+.name{
+    margin-top: -2px;
+    margin-left: 50px;
+}
+.img{
+    margin-top: 10px;
+    margin-left: 9px;
+    margin-right: 3px;
+    background-color: rgb(171, 171, 171);
+    height: 85px;
+}
+.adnsu{
+    margin-top: 69px;
+    width: 70px;
+}
+#inn-div-right{
+    margin-right: 25px;
+}
+.back-container{
+    margin: 40px auto;
+    width: 350px;
+    height: 220px;
+    background-color: white;
+    background: url('./image/backgroundImgTers.png') ;
+    background-size: cover ;
+    border-radius: 13px;
+    box-shadow: 6px 2px 15px gray;
+}
+.back-header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.back-header p{
+    margin: 6px;
+    font-size: 5.8px;
+}
+.silver{
+    margin-top: -2px;
+    height: 50px;
+    background: url(/image/SilverBox.jpg);
+    background-size: cover;
+}
+.back-middle, .back-footer{
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+}
+.gray-box{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(202, 190, 190);
+}
+.k-bank{
+    margin-top: 8px;
+    height: 20px;
+}
+.mastercard{
+    height: 55px;
+    position: relative;
+    right: 6px;
+}
+.nova{
+    font-size: 5px;
+    margin-bottom: 8px;
+}
+.card-num{
+    margin-top: -18px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.debit{
+    height: 50px;
+    position: relative;
+    bottom: 5px;
+}
+.flex{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.melumat p:first-child{
+    font-size: 7px;
+    font-weight: 500;
+    margin-top: -1px;
+}
+.melumat p:nth-child(2){
+    font-size: 13px;
+    margin: 3px 0;
+    font-weight: 500;
+}
+.melumat p:nth-child(3){
+    font-size: 7px;
+}
+.sinyal{
+    height: 27px;
+    position: relative;
+    right: 20px;
+}
+.red{
+    color: rgb(153, 22, 22);
+    font-weight: 900;
+    font-size: 14px;
+}
+.phone{
+    display: flex;
+}
+.phoneLogo{
+    height: 14px;
+    position: relative;
+    top: 2px;
+}
